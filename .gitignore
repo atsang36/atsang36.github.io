@@ -3,6 +3,9 @@
 
 node_modules/
 public/
+public/index.html
+public/render-page.js
+public/render-page.js.map
 
 
 page-data/
