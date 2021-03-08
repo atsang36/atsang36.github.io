@@ -7,6 +7,7 @@ public/index.html
 public/render-page.js
 public/render-page.js.map
 
+dist/
 
 page-data/
 offline-plugin-app-shell-fallback/
@@ -19,3 +20,8 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+component---*
+polyfill-*
+webpack-runtime-*
+app-*

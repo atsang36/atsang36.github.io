@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../../../assets/sass/main.scss";
 import "./Footer.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -13,22 +14,30 @@ class Footer extends Component {
   render() {
     return (
       <footer id="footer">
-        <div class="inner">
-          <ul class="icons">
-            <li>
-              <FontAwesomeIcon icon={faTwitter} size="m" />
+        <div className="inner">
+          <ul className="icons">
+            <li id="icon">
+              <a href="http://twitter.com/">
+                <FontAwesomeIcon icon={faTwitter} size="lg" />
+              </a>
             </li>
-            <li>
-              <FontAwesomeIcon icon={faLinkedin} size="m" />
+            <li id="icon">
+              <a href="http://linkedin.com/andy-tsang">
+                <FontAwesomeIcon icon={faLinkedin} size="lg" />
+              </a>
             </li>
-            <li>
-              <FontAwesomeIcon icon={faGithub} size="m" />
+            <li id="icon">
+              <a href="http://github.com/atsang36">
+                <FontAwesomeIcon icon={faGithub} size="lg" />
+              </a>
             </li>
-            <li>
-              <FontAwesomeIcon icon={faEnvelope} size="m" />
+            <li id="icon">
+              <a href="http://google.com">
+                <FontAwesomeIcon icon={faEnvelope} size="lg" />
+              </a>
             </li>
           </ul>
-          <ul class="copyright">
+          <ul className="copyright">
             <li>&copy; AT</li>
             <li>
               Design: <a href="http://html5up.net">HTML5 UP</a>

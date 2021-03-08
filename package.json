@@ -27,7 +27,7 @@
     "@mdx-js/react": "^1.6.22",
     "boostrap": "^2.0.0",
     "bootstrap": "^5.0.0-beta2",
-    "gatsby": "^2.26.1",
+    "gatsby": "^2.32.8",
     "gatsby-image": "^2.10.0",
     "gatsby-plugin-manifest": "^2.12.0",
     "gatsby-plugin-material-ui": "^2.1.10",
