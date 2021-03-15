@@ -1,19 +1,20 @@
 import React, { Component } from "react";
 import "../../../assets/sass/main.scss";
+import "./Header.scss";
+import avatar from "../.././../images/avatar.jpg";
 
 class Header extends Component {
   render() {
     return (
       <header id="header">
         <div className="inner">
-          {/* <a href="#" class="image avatar">
-            <img src="images/avatar.jpg" alt="" />
-          </a> */}
+          <a href="/#">
+            <img id="avatar" src={avatar} alt="test" />
+          </a>
           <h1>
-            Hi,
-            <br /> I am <strong>Andy Tsang</strong>,
-            <br />
-            Software Developer
+            Hello,
+            <br /> I am <strong id="name">Andy Tsang</strong>,
+            <br />a Software Developer
           </h1>
         </div>
       </header>

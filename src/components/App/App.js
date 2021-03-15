@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../../../assets/sass/main.scss";
+import "./App.scss";
 import Main from "../Main/Main";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
@@ -12,7 +13,7 @@ class App extends Component {
       <Fragment>
         <Container fluid>
           <Row>
-            <Col s={4} md={4}>
+            <Col id="left-column" s={4} md={4}>
               <Header></Header>
               <Footer></Footer>
             </Col>

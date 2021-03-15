@@ -17,33 +17,31 @@ class Footer extends Component {
         <div className="inner">
           <ul className="icons">
             <li id="icon">
-              <a href="http://twitter.com/">
+              <a href="https://twitter.com/">
                 <FontAwesomeIcon icon={faTwitter} size="lg" />
               </a>
             </li>
             <li id="icon">
-              <a href="http://linkedin.com/andy-tsang">
+              <a href="https://www.linkedin.com/in/andy-tsang/">
                 <FontAwesomeIcon icon={faLinkedin} size="lg" />
               </a>
             </li>
             <li id="icon">
-              <a href="http://github.com/atsang36">
+              <a href="https://github.com/atsang36">
                 <FontAwesomeIcon icon={faGithub} size="lg" />
               </a>
             </li>
             <li id="icon">
-              <a href="http://google.com">
+              <a href="https://google.com">
                 <FontAwesomeIcon icon={faEnvelope} size="lg" />
               </a>
             </li>
           </ul>
           <ul className="copyright">
-            <li>&copy; AT</li>
+            <li>&copy; Andy Tsang</li>
             <li>
-              Design: <a href="http://html5up.net">HTML5 UP</a>
-            </li>
-            <li>
-              Demo Images: <a href="http://https://unsplash.com/"> Unsplash</a>
+              Design: <a href="http://html5up.net">HTML5 UP</a> || Demo Images:{" "}
+              <a href="http://https://unsplash.com/"> Unsplash</a>
             </li>
             <li>
               <a
