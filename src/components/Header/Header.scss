@@ -8,3 +8,10 @@
 #name {
   color: rgb(255, 255, 255, 0.9);
 }
+
+#introduction {
+  align-items: flex-end;
+  -moz-align-items: -moz-flex-end;
+  -webkit-align-items: -webkit-flex-end;
+  -ms-align-items: -ms-flex-end;
+}

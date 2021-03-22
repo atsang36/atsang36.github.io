@@ -13,11 +13,11 @@ class App extends Component {
       <Fragment>
         <Container fluid>
           <Row>
-            <Col id="left-column" s={4} md={4}>
+            <Col id="left-column" xs={12} s={12} md={6} lg={4}>
               <Header></Header>
               <Footer></Footer>
             </Col>
-            <Col s={8} md={8}>
+            <Col xs={12} s={12} md={6} lg={8}>
               <Main></Main>
             </Col>
           </Row>

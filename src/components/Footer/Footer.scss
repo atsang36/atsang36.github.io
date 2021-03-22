@@ -1,16 +1,7 @@
 #icon {
   list-style-type: none;
+  margin: 2px 1px;
 }
-
-// .fa-linkedin {
-//   background: #007bb5;
-//   color: white;
-// }
-
-// .fa-twitter {
-//   background: #55acee;
-//   color: white;
-// }
 
 .fa {
   padding: 20px;
@@ -30,4 +21,22 @@
   color: #00a0c6;
   text-decoration: none;
   cursor: pointer;
+}
+
+#footnotes {
+  -moz-align-items: -moz-flex-start;
+  -webkit-align-items: -webkit-flex-start;
+  -ms-align-items: -ms-flex-start;
+  font-size: x-small;
+  text-align: left;
+  align-items: flex-start;
+  color: rgba(255, 255, 255, 0.9);
+  list-style-type: none;
+}
+
+#twitter-icon {
+}
+
+#linkedin-icon {
+  background-color: white;
 }
