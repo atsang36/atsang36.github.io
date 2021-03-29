@@ -31,7 +31,7 @@ class Footer extends Component {
               </a>
             </li>
             <li id="icon">
-              <a href="https://www.linkedin.com/in/andy-tsang/">
+              <a id="hello" href="https://www.linkedin.com/in/andy-tsang/">
                 <span className="fa-layers fa-fw fa-2x">
                   <FontAwesomeIcon icon={faSquare} color="white" />
                   <FontAwesomeIcon

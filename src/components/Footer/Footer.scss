@@ -1,6 +1,13 @@
 #icon {
   list-style-type: none;
   margin: 2px 1px;
+
+  a:hover .twitter-icon,
+  a:hover .linkedin-icon,
+  a:hover .github-icon,
+  a:hover .email-icon {
+    color: darkslateblue;
+  }
 }
 
 .fa {
@@ -11,18 +18,6 @@
   text-decoration: none;
   border-radius: 50%;
 }
-
-.icon-links a {
-  color: gray;
-  text-decoration: none;
-}
-
-.icon-links a:hover {
-  color: #00a0c6;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 #footnotes {
   -moz-align-items: -moz-flex-start;
   -webkit-align-items: -webkit-flex-start;
@@ -35,8 +30,4 @@
 }
 
 #twitter-icon {
-}
-
-#linkedin-icon {
-  background-color: white;
 }
