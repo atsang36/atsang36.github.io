@@ -18,7 +18,7 @@ class App extends Component {
               <Footer></Footer>
             </Col>
             <Col xs={12} s={12} md={6} lg={8}>
-              <Main></Main>
+              <Main id="main"></Main>
             </Col>
           </Row>
         </Container>

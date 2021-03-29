@@ -1,12 +1,13 @@
 import React, { Component } from "react";
+import { Fragment } from "react";
 import "../../../assets/sass/main.scss";
 
 class Main extends Component {
   render() {
     return (
-      <main>
+      <Fragment id="main">
         <div>Main</div>
-      </main>
+      </Fragment>
     );
   }
 }
