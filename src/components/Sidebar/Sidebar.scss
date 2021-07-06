@@ -1,0 +1,20 @@
+#icon {
+  list-style-type: none;
+  margin: 2px 1px;
+
+  a:hover .twitter-icon,
+  a:hover .linkedin-icon,
+  a:hover .github-icon,
+  a:hover .email-icon {
+    color: gray;
+  }
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}

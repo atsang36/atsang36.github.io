@@ -7,6 +7,19 @@ body,
   height: 100%;
 }
 
+body {
+  background-color: #1f1815;
+  background-attachment: scroll, scroll;
+  background-image: url("../../../images//background/background_stairs2.jpg");
+  background-position: top left, top left;
+  background-repeat: repeat, no-repeat;
+  background-size: cover;
+  // display: -moz-flex;
+  // display: -webkit-flex;
+  // display: -ms-flex;
+  // display: flex;
+}
+
 #left-column {
   display: -moz-flex;
   display: -webkit-flex;
@@ -20,18 +33,27 @@ body,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background-color: #1f1815;
-  background-attachment: scroll, scroll;
-  background-image: url("../../../images//background/background_city.jpg");
-  background-position: top left, top left;
-  background-repeat: repeat, no-repeat;
-  background-size: cover;
   color: rgba(255, 255, 255, 0.6);
   height: 100%;
   left: 0;
   padding: 2em 2em;
-  // position: absolute;
   text-align: right;
+  top: 0;
+}
+
+#right-column {
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.8);
+  height: 100%;
+  left: 0;
+  padding: 2em 2em;
   top: 0;
 }
 

@@ -6,6 +6,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import { Fragment } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Sidebar from "../Sidebar/Sidebar";
 
 class App extends Component {
   render() {
@@ -15,9 +16,10 @@ class App extends Component {
           <Row>
             <Col id="left-column" xs={12} s={12} md={6} lg={4}>
               <Header></Header>
+              <Sidebar></Sidebar>
               <Footer></Footer>
             </Col>
-            <Col xs={12} s={12} md={6} lg={8}>
+            <Col id="right-column" xs={12} s={12} md={6} lg={8}>
               <Main id="main"></Main>
             </Col>
           </Row>

@@ -14,7 +14,7 @@ class Header extends Component {
           <h1>
             Hello,
             <br /> I am <strong id="name">Andy Tsang</strong>,
-            <br />a Software Developer
+            <br />a Software Engineer
           </h1>
         </div>
       </header>
