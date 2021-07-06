@@ -1,7 +1,7 @@
 .DS_Store
 .cache/
 
-node_modules/
+node_modules
 public/
 public/index.html
 public/render-page.js
